@@ -3,19 +3,15 @@
 
 const COMMON = {
 
-  // Title shown on the browser tab, not in content
   title: "Mindful Moving Study", 
   
-  // Default header content - font is big - do not make it too long
   header1: "Hi",
   header2: "Ready to Dance?",
-  header3: "Let's have some fun today",
+  header3: "",
 
-  // Zoom Link
   zoomLink: "https://www.cnn.com/",
 
-  // Contact info for Help
-  phone: "215-496-9650",
+  phone: "215-490-9650",
   email: "mbmresearch@drexel.edu",
 
   // admin id
@@ -24,7 +20,7 @@ const COMMON = {
 
 const GROUP_A = {
   // please update this once you complete a session
-  lastSession: "5",
+  lastSession: "11",
 
   showDailyPractice: "yes", // yes or no
 
@@ -33,23 +29,17 @@ const GROUP_A = {
     { 
       show: "yes",
       date: "Apr 25, 2022",
-      message: "Reminder: You have a Live Class scheduled for Tuesday, April 25th at 10am.",
+      message: "[msg body]",
       pic: "",
-      link: "https://zoom.us/",
+      link: "",
     },
     {
-      show: "yes",
-      date: "Apr 16, 2022",
-      message: "Please check your email and finish the survey.",
+      show: "no",
+      date: "Apr 15, 2022",
+      message: "[msg body]",
       pic: "",
       link: "",
     },  
-    { 
-      show: "no",
-      date: "Apr 06, 2022",
-      message: "The first class went well. Kudos to all!!",
-      link: "",
-    },
   ],
 
   // non-member message won't show on individual page
@@ -57,109 +47,100 @@ const GROUP_A = {
     { 
       show: "no",
       date: "Apr 05, 2022",
-      message: `This is not your individual page.  If you want to access your own page, please contact us.`,        
+      message: "[This is not your individual page]",
       pic: "",
       link: "",
     },  
   ],
   
-  // Meeting schedule
   schedule: [
     {
       session: 1,
       date: "Apr 05, 2022",
-      title: "Let's meet at 10am",
-      completedTitle: "Congrats! You made the 1st session!",
+      title: "[mtg @ xx apm]",  // don't use this
+      completedTitle: "[completed msg]", // don't use this
       link: "https://player.vimeo.com/video/399771453",
-      linkTitle: "Link to Exercise",
+      linkTitle: "Breath Awareness Meditation - Part 1",
     },
     {
       session: 2,
       date: "Apr 12, 2022",
-      title: "Let's meet at 10am",
-      completedTitle: "Well done!",
+      title: "[mtg @ xx apm]",
+      completedTitle: "[completed msg]",
       link: "https://player.vimeo.com/video/399771453",
-      linkTitle: "Knee Exercise",
+      linkTitle: "Liberate Your Shoulder",
     },
     {
       session: 3,
       date: "Apr 19, 2022",
-      title: "Let's meet at 10am",
-      completedTitle: "Thanks for your participation. Let's exercise shoulder!",
+      title: "[mtg @ xx apm]",
+      completedTitle: "[completed msg]",
       link: "https://player.vimeo.com/video/399771453",
-      linkTitle: "Shoulder Exercise",
+      linkTitle: "Hand Dance",
     },
     {
       session: 4,
       date: "Apr 26, 2022",
-      title: "Let's meet at 10am",
-      completedTitle: "Thank you for your participation!",
-      link: "",
-      linkTitle: "Link to Exercise",
+      title: "[mtg @ xx apm]",
+      completedTitle: "[completed msg]",
+      link: "https://player.vimeo.com/video/399771453",
+      linkTitle: "Release Tension and Mobilize",
     },
     {
       session: 5,
       date: "May 03, 2022",
-      title: "Let's meet at 10am",
-      completedTitle: "Let's Play Rock, paper, scissor!",
+      title: "[mtg @ xx apm]",
+      completedTitle: "[completed msg]",
       link: "https://player.vimeo.com/video/399771453",
-      linkTitle: "Rock, Paper...",
+      linkTitle: "Imagery based Movement- Part 1",
     },
     {
       session: 6,
       date: "May 10, 2022",
-      title: "Let's meet at 10am",
-      completedTitle: "Thank you for your participation!",
+      title: "[mtg @ xx apm]",
+      completedTitle: "[completed msg]",
       link: "https://player.vimeo.com/video/399771453",
-      linkTitle: "Link to Exercise",
+      linkTitle: "Gentle Stretching and Sensory Exploration",
     },
     {
       session: 7,
       date: "May 17, 2022",
-      title: "Let's meet at 10am",
-      completedTitle: "Thank you for your participation!",
+      title: "[mtg @ xx apm]",
+      completedTitle: "[completed msg]",
       link: "https://player.vimeo.com/video/399771453",
-      linkTitle: "Link to Exercise",
+      linkTitle: "Dancing with Scarves",
     },
     {
       session: 8,
       date: "May 24, 2022",
-      title: "Let's meet at 10am",
-      completedTitle: "Thank you for your participation!",
+      title: "[mtg @ xx apm]",
+      completedTitle: "[completed msg]",
       link: "https://player.vimeo.com/video/399771453",
-      linkTitle: "Link to Exercise",
+      linkTitle: "Awakening Senses",
     },
     {
       session: 9,
       date: "May 31, 2022",
-      title: "Let's meet at 10am",
-      completedTitle: "Thank you for your participation!",
+      title: "[mtg @ xx apm]",
+      completedTitle: "[completed msg]",
       link: "https://player.vimeo.com/video/399771453",
-      linkTitle: "Link to Exercise",
+      linkTitle: "Imagery based Movement - Part 2",
     },
     {
       session: 10,
       date: "Jun 07, 2022",
-      title: "Let's meet at 10am",
-      completedTitle: "Thank you for your participation!",
+      title: "[mtg @ xx apm]",
+      completedTitle: "[completed msg]",
       link: "https://player.vimeo.com/video/399771453",
-      linkTitle: "Link to Exercise",
+      linkTitle: "Connection Dance",
     },
     {
       session: 11,
       date: "Jun 14, 2022",
-      title: "Let's meet at 10am",
-      completedTitle: "Thank you for your participation!",
+      title: "[mtg @ xx apm]",
+      completedTitle: "[completed msg]",
       link: "https://player.vimeo.com/video/399771453",
-      linkTitle: "Link to Exercise",
-    },
-    {
-      session: 12,
-      date: "Jun 21, 2022",
-      title: "Let's meet at 10am",
-      completedTitle: "Thank you for your participation!",
-      link: "https://player.vimeo.com/video/399771453",
-      linkTitle: "Link to Exercie",
+      linkTitle: "Breath Awareness Meditation - Part 2",
     },
   ],
 };

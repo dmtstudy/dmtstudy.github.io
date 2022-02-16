@@ -40,7 +40,7 @@ function renderInitial(id) {
   $('#js-header1').text(`${header1} ${firstName}!`);
   $('#js-header2').text(header2);
   $('#js-header3').text(header3);
-  $('#js-message-title').text(`Message to ${firstName}`);
+    // $('#js-message-title').text(`Message to ${firstName}`);
 
   $('#js-help-phone').text(phone);
   $('#js-help-email').html(`<a class="thin" style="font-size: 28px;" href="mailto:${email}">${email}</a>`);
@@ -87,13 +87,14 @@ function renderPastMeetings(id) {
     return;
   }
 
-  $('#js-past-meetings').append(list.map(session => `
+  // ${absence.includes(session.session) ? `<img class='red_fill' width=30 src="./img/fail.svg" title="You're absent">` : `<img class='green_fill' width=30 src="./img/success.svg" title="checked">`}
+    $('#js-past-meetings').append(list.map(session => `
       <li class="li_main">
-        <div class="w2">
-        ${absence.includes(session.session) ? `<img class='red_fill' width=30 src="./img/fail.svg" title="You're absent">` : `<img class='green_fill' width=30 src="./img/success.svg" title="checked">`}
-        &nbsp; ${session.date}</div>
-          <div class="w3">#${session.session} ${absence.includes(session.session) ? "&nbsp;<font color='c00000'>You missed this session.</font>" : session.completedTitle }</div>
-          <div class="w2"><a id="" target='top' class="thin" href="${session.link}">${session.link ? `${session.linkTitle} &gt;` : '' }</a></div>
+        <div class="w2 center">
+        ${session.session}
+        </div>
+          <div class="w3">${session.linkTitle }</div>
+          <div class="w2"><a id="" target='top' class="thin" href="${session.link}">${session.link ? `Click here &gt;` : '' }</a></div>
       </li>`));
 }
 
@@ -141,14 +142,15 @@ function renderDailyPractice() {
   const session = schedule.find(item => item.session === sessionIndex);
 
   $('#js-daily').html(`
-    <p id='' class='font_l ind_l float'>#${lastSession} Daily Practice - ${session.linkTitle}</p>
-    <div id='js-demo-note' class='ind_l line_sp'>    
+    <p id='' class='font_l ind_l'>Week ${lastSession} Daily Practice</p>
+    <div class='font_m ind_l'>&nbsp;&nbsp;${session.linkTitle}</div>
+    <div id='js-demo-note' class='ind_l line_sp'> 
       <iframe class="iframe" src="${session.link}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <div id='js-demo-note' class='ind_l'>* The last meeting was held on ${session.date}</div>  
     <p class="mg_top"></p> 
   `);
 }
+{/* <div id='js-demo-note' class='ind_l'>* The last meeting was held on ${session.date}</div>   */}
 
 function renderAdmin() {
   const memberHtml = MEMBER_A.map(member => `<li class="li_main admin_height">
@@ -167,7 +169,6 @@ function renderAdmin() {
       ${memberHtml}
     </ul>
   `);
-  console.log("Admin")
 }
 
 $(_=> {
@@ -176,7 +177,7 @@ $(_=> {
   renderInitial(id);
   renderMessage(id);
   renderPastMeetings(id);
-  renderFutureMeetings();
+  // renderFutureMeetings();
   if (GROUP_A.showDailyPractice.toLowerCase() === "yes")  renderDailyPractice();
   if (COMMON.id === id) renderAdmin();
 });

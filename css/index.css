@@ -25,6 +25,10 @@ body {
   line-height: 1.5rem;
 }
 
+.right_m {
+  margin-right: 5%;
+}
+
 .flex_nowrap {
   flex-flow: nowrap !important;
 }
@@ -42,6 +46,11 @@ body {
 .drexel_logo {
   margin-left: -50%;
   height: 50px;
+}
+
+.join_logo {
+  margin-top: 10%;
+  width: 200px;
 }
 
 .main_bg {
@@ -109,6 +118,10 @@ h2 {
   border: 2px solid #e0e0e0;
   margin: 0;
   display: flex;
+  justify-content: center;
+}
+
+.center {
   justify-content: center;
 }
 
@@ -296,9 +309,9 @@ ul {
   vertical-align: middle;
   padding: calc(1rem - 1px) 24px;
   border-radius: 24px;
-  border: 2px solid #2a2c2d;;
+  border: 2px solid #2a2c2d;
   color: #FFF;
-  background-color: #2a2c2d;
+  background-color: #06294d;
   color: #FFF;
   margin-top: 1rem;
 }
