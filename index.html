@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+  	<meta name="description" content="MDMT">
+    
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link href="./css/float-grid.css" rel="stylesheet" type="text/css" />
+    <link href="./css/index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header role='banner' id='js-image' class='banner'>
+      <div class='row'> 
+        <div id='js-header' class='col-12'>
+          <section id='js-top-link' class="top_logo top al_left">
+            <a id='' target='top' href="https://drexel.edu/cnhp/faculty/profiles/ShimMinjung/"><img class='drexel_logo' src='./img/drexel-black.png'></a>
+            <a id='js-login-link' target='top' href="./tmp.html"><section style='color: "#c00000"; text-shadow: 1px 0px #888;'>About this Program</section></a>
+          </section>
+          <p class='font_el ind_l mg_top''><span id='js-header1'>Hi Everyone!</span></BR><span id='js-header2'>Ready to Dance?</span></BR></p>
+          <p id='js-header3' class='font_m ind_l mg_top'>Let's have some fun today</p>
+          &nbsp;&nbsp;&nbsp;
+          <button type="submit" onclick="openHelp()" class="btn_black ind_l">Need Help!</button>&nbsp;&nbsp;&nbsp;
+          <button type="submit" target='_blank' onclick="openLiveMeeting()" class="btn_black">Live Meeting</button>&nbsp;&nbsp;&nbsp;
+        </div>
+      </div>
+    </header>
+    <div id='js-popup-bg' class='dark hidden'></div>
+    <section class='help hidden' id="js-help" role="region" aria-live='polite'>                  
+        <div class="popup">
+            <span class='font_el'>Are you Lost?</span>
+            <div class='font_m'>Don't worry. We're here to help you!</BR></BR>
+              <hr>
+              Please call:</BR>
+              <p class="line_sp"></p>
+              <span id='js-help-phone' class='font_l red'>
+                215-347-1234</span></BR>
+                <p class="line_sp"></p>
+                Email: <span id='js-help-email'><a class="thin" style="font-size: 28px;" href="mailto:anthony011@gmail.com">anthony011@gmail.com</a></span>
+            </div>
+              <button onclick="closeHelp()" class="btn_black" style="margin-left:35%; width: 30%;">Close</button>
+        </div>
+    </section>
+
+    <div id='js-popup-bg' class='dark hidden'></div>
+    <section class='popup hidden' id="js-popup" role="region">                  
+        <div id='js-err-title' class='font_l green'>message title</div></br>
+        <div id='js-err-message' class='font_m mg0'>message goes here</div>
+        <div id='js-btn'></div>
+    </section>
+      
+    <main class='main_bg' role='main'>
+      <div class='row'> 
+        <div class='col-12'>
+          <section id='' role='regional' aria-live='polite'>
+            <p id='js-message-title' class='font_l ind_l float'>Messages to Everyone</p>
+            <ul id="js-message" class="al_center" aria-live="polite">
+              <li class="li_main">
+                <div class="w2 li_title">&nbsp;&nbsp;&nbsp;&nbsp; Date</div>
+                <div class="w3 li_title">Message</div>
+                <div class="w1"><a id="" class="thin" href=""> </a></div>
+              </li>
+            </ul>
+
+            <div id='js-daily'>
+            </div>
+
+            
+            <p id='' class='col-12 font_l ind_l float'>Completed Meetings & Exercise</p>
+            <ul id="js-past-meetings" class="al_center" aria-live="polite">
+              <li class="li_main">
+                <div class="w2 li_title">&nbsp;&nbsp;&nbsp;&nbsp; Date</div>
+                <div class="w3 li_title">Status</div>
+                <div class="w2"><a id="" class="thin" href=""> </a></div>
+              </li>
+            </ul>
+
+            <p id='' class='col-12 font_l ind_l float'>Next Meeting<a id='js-full-list' onclick='toggleFullList();' class='ind_l'>Upcoming Mettings ></a></p>
+            <ul id="js-future-meetings" cnt="1" class="al_center" aria-live="polite">
+              <li class="li_main">
+                <div class="w2 li_title">&nbsp;&nbsp;&nbsp;&nbsp; Date</div>
+                <div class="w3 li_title">Meeting</div>
+                <div class="w1"><a id="" class="thin" href=""> </a></div>
+              </li>
+            </ul>
+            <div id='js-admin'>
+            </div>
+            <p class="mg_top"></p> 
+
+          </section>
+        </div>
+      </div>
+    </main>
+    <div id='js-demo-note' class='copy_right'>© 2022 Dr. Minjung Shim All Rights Reserved</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./edit_group.js"></script> 
+    <script type="text/javascript" src="./edit_member.js"></script> 
+    <script type="text/javascript" src="./js/index.js"></script>
+
+  </body>
+</html>
