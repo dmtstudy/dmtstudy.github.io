@@ -22,13 +22,13 @@ function closeHelp() {
 }
 
 function getFirstName(id) {
-  const memberRecord = MEMBER_A.find(member => member.id === id)?.name.split(/ /)[0];
+  const memberRecord = MEMBER.find(member => member.id === id)?.name.split(/ /)[0];
   return memberRecord || 'Everyone';
 }
 
 function renderInitial(id) {
   const { title, header1, header2, header3, phone, email } = COMMON;
-  const memberRecord = MEMBER_A.find(member => member.id === id);
+  const memberRecord = MEMBER.find(member => member.id === id);
 
   const firstName = getFirstName(id);
   if (firstName !== 'Everyone') $('title').text(`${firstName}: `);
@@ -47,7 +47,7 @@ function renderInitial(id) {
 }
 
 function renderMessage(id) {
-  const memberRecord = MEMBER_A.find(member => member.id === id);
+  const memberRecord = MEMBER.find(member => member.id === id);
   const message = memberRecord ? [...memberRecord?.message, ...GROUP_A?.group_message] : [...GROUP_A?.group_message, ...GROUP_A?.nonmember_message];
   const filteredMessage = message.filter(item => item.show?.toLowerCase() === "yes");
 
@@ -72,7 +72,7 @@ function renderMessage(id) {
 }
 
 function renderPastMeetings(id) {
-  const absence = MEMBER_A.find(member => member.id === id)?.absence || [];
+  const absence = MEMBER.find(member => member.id === id)?.absence || [];
   const { lastSession, schedule } = GROUP_A;
   const sessionIndex = parseInt(lastSession, 10);
   const list = schedule.filter(item => item.session <= sessionIndex).sort((a, b) => b.session - a.session);
@@ -154,7 +154,7 @@ function renderDailyPractice() {
 {/* <div id='js-demo-note' class='ind_l'>* The last meeting was held on ${session.date}</div>   */}
 
 function renderAdmin() {
-  const memberHtml = MEMBER_A.map(member => `<li class="li_main admin_height">
+  const memberHtml = MEMBER.map(member => `<li class="li_main admin_height">
         <div class="w2">&nbsp;&nbsp; ${member.name}</div>
         <div class="w4"><a id="" target='top' class="thin" href="./index.html?id=${member.id}">https://dmtstudy.github.io/?id=${member.id}</a></div>
       </li>`).join('');

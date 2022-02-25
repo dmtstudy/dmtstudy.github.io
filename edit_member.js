@@ -1,11 +1,11 @@
 'use strict';
 // PLEASE EDIT ONLY CONTENT PORTION BELOW (INSIDE OF DOUBLE QUOTATION "")
 
-const MEMBER_A = [
+const MEMBER = [
   // pic: thumbup, heart, gift, cry, notice
   {
     name: "John Doe",
-    id: "d40a", 
+    id: "a40a", 
     image: "m1",
     absence: [],
     message: [
@@ -20,7 +20,7 @@ const MEMBER_A = [
   },
   {
     name: "[name2]",
-    id: "e3d2", 
+    id: "a3d2", 
     image: "f1",
     absence: [],
     message: [
@@ -35,7 +35,7 @@ const MEMBER_A = [
   },
   {
     name: "[name3]",
-    id: "4d96", 
+    id: "ad96", 
     image: "f1",
     absence: [],
     message: [
@@ -50,7 +50,7 @@ const MEMBER_A = [
   },
   {
     name: "[name4]",
-    id: "518d", 
+    id: "a18d", 
     image: "f1",
     absence: [],
     message: [
@@ -80,7 +80,7 @@ const MEMBER_A = [
   },
   {
     name: "[name6]",
-    id: "2e65", 
+    id: "ae65", 
     image: "f1",
     absence: [],
     message: [
@@ -95,7 +95,7 @@ const MEMBER_A = [
   },
   {
     name: "[name7]",
-    id: "8840", 
+    id: "a840", 
     image: "f1",
     absence: [],
     message: [
@@ -110,7 +110,7 @@ const MEMBER_A = [
   },
   {
     name: "[name8]",
-    id: "d5da", 
+    id: "a5da", 
     image: "f1",
     absence: [],
     message: [
@@ -125,7 +125,7 @@ const MEMBER_A = [
   },
   {
     name: "[name9]",
-    id: "c994", 
+    id: "b994", 
     image: "f1",
     absence: [],
     message: [
@@ -155,7 +155,7 @@ const MEMBER_A = [
   },
   {
     name: "[name11]",
-    id: "5b8b", 
+    id: "bb8b", 
     image: "f1",
     absence: [],
     message: [
@@ -170,7 +170,7 @@ const MEMBER_A = [
   },
   {
     name: "[name12]",
-    id: "d5e8", 
+    id: "b5e8", 
     image: "f1",
     absence: [],
     message: [
@@ -185,7 +185,7 @@ const MEMBER_A = [
   },
   {
     name: "[name13]",
-    id: "5194", 
+    id: "b194", 
     image: "f1",
     absence: [],
     message: [
@@ -200,7 +200,7 @@ const MEMBER_A = [
   },
   {
     name: "[name14]",
-    id: "d20b", 
+    id: "b20b", 
     image: "f1",
     absence: [],
     message: [
@@ -215,7 +215,7 @@ const MEMBER_A = [
   },
   {
     name: "[name15]",
-    id: "3e3b", 
+    id: "be3b", 
     image: "f1",
     absence: [],
     message: [
@@ -230,7 +230,7 @@ const MEMBER_A = [
   },
   {
     name: "[name16]",
-    id: "dc0b", 
+    id: "bc0b", 
     image: "f1",
     absence: [],
     message: [
@@ -243,5 +243,4 @@ const MEMBER_A = [
       },
     ],
   },
-
 ];
