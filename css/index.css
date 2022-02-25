@@ -300,6 +300,104 @@ ul {
   padding: 0 1em;
 }
 
+.btn_live {
+  font-size: 1.7rem;
+  /* align-items: center; */
+  /* line-height: 2.4rem; */
+  font-weight: 400;
+  letter-spacing: 0.06rem; 
+  display: flex;
+  vertical-align: middle;
+  padding: calc(1rem - 1px) 24px;
+  border-radius: 36px;
+  border: 0 solid #2a2c2d;
+  /* background-color: #06294d; */
+  background-color: rgb(255, 255, 255, 0.6);
+  /* background-color: #fff; */
+  color: #c00000;
+  margin-top: 1rem;
+}
+
+.btn_ft {
+  padding-top: 4px;
+}
+
+.btn_scroll {
+  -moz-transform: translateX(10%);
+  -webkit-transform: translateX(10%);
+  transform: translateX(10%);
+  -moz-animation: bouncing-text 0.5s linear infinite alternate;
+  -webkit-animation: bouncing-text 0.5s linear infinite alternate;
+  animation: bouncing-text 1s linear infinite alternate;
+}
+@-moz-keyframes bouncing-text {
+  0% {
+      -moz-transform: translateX(10%);
+  }
+  100% {
+      -moz-transform: translateX(-3%);
+  }
+}
+
+@-webkit-keyframes bouncing-text {
+  0% {
+      -webkit-transform: translateX(10%);
+  }
+  100% {
+      -webkit-transform: translateX(-3%);
+  }
+}
+
+@keyframes bouncing-text {
+  0% {
+      -moz-transform: translateX(10%);
+      -webkit-transform: translateX(10%);
+      transform: translateX(10%);
+  }
+  100% {
+      -moz-transform: translateX(-3%);
+      -webkit-transform: translateX(-3%);
+      transform: translateX(-3%);
+  }
+}
+.btn_live:hover,
+.btn_live:focus,
+.btn_live:active {
+  background-color: rgb(255, 255, 255, 0.2);
+  cursor: pointer;
+  border: 0 solid #2a2c2d;
+  color: #2a2c2d;
+  transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+
+.btn_help {
+  font-size: 1.4rem;
+  /* align-items: center; */
+  line-height: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.06rem; 
+  display: flex;
+  vertical-align: middle;
+  padding: 12px 16px 8px;
+  border-radius: 24px;
+  border: 0 solid #2a2c2d;
+  /* background-color: #06294d; */
+  background-color:rgba(0, 0, 0, 0.4);
+  /* color: #000; */
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.btn_help:hover,
+.btn_help:focus,
+.btn_help:active {
+  background-color:rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  color: #2a2c2d;
+  border: 0 solid #2a2c2d;
+  transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+
 .btn_black {
   font-size: 1.3rem;
   line-height: 1;
@@ -310,7 +408,6 @@ ul {
   padding: calc(1rem - 1px) 24px;
   border-radius: 24px;
   border: 2px solid #2a2c2d;
-  color: #FFF;
   background-color: #06294d;
   color: #FFF;
   margin-top: 1rem;
@@ -320,6 +417,7 @@ ul {
 .btn_black:focus,
 .btn_black:active {
   background-color: transparent;
+  cursor: pointer;
   color: #2a2c2d;
   transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
 }
