@@ -31,7 +31,7 @@ const GROUP_A = {
       date: "Apr 25, 2022",
       message: "[msg body]",
       pic: "",
-      link: "zoom link here",
+      link: "",
     },
     {
       show: "no",
