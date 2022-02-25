@@ -155,12 +155,12 @@ function renderDailyPractice() {
 function renderAdmin() {
   const memberHtml = MEMBER_A.map(member => `<li class="li_main admin_height">
         <div class="w2">&nbsp;&nbsp; ${member.name}</div>
-        <div class="w4"><a id="" target='top' class="thin" href="./index.html?id=${member.id}">http://ops01.cnhp.drexel.edu/CNHP/CAT/MS/index.html?id=${member.id}</a></div>
+        <div class="w4"><a id="" target='top' class="thin" href="./index.html?id=${member.id}">https://dmtstudy.github.io/?id=${member.id}</a></div>
       </li>`).join('');
 
   $('#js-admin').html(`
     <p id='' class='col-12 font_l ind_l float'>Member List <font color='#c00000'>(Admin Only)</font></p>
-    <div class="w4 ind_l">&nbsp;&nbsp; GROUP A PAGE&nbsp;&nbsp;&nbsp;&nbsp; <a id="" target='top' class="thin" href="./index.html">http://ops01.cnhp.drexel.edu/CNHP/CAT/MS/index.html</a></div>
+    <div class="w4 ind_l">&nbsp;&nbsp; GROUP A PAGE&nbsp;&nbsp;&nbsp;&nbsp; <a id="" target='top' class="thin" href="./index.html">https://dmtstudy.github.io</a></div>
     <ul id="" class="al_center" aria-live="polite">
       <li class="li_main">
         <div class="w2 li_title">&nbsp;&nbsp;&nbsp;&nbsp; Name</div>
