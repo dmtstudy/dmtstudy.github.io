@@ -59,7 +59,7 @@ const GROUP_A = {
       date: "Apr 05, 2022",
       title: "[mtg @ xx apm]",  // don't use this
       completedTitle: "[completed msg]", // don't use this
-      link: "https://player.vimeo.com/video/399771453",
+      link: "https://youtu.be/0GH81Ab3VXQ",
       linkTitle: "Breath Awareness Meditation",
     },
     {
@@ -67,15 +67,15 @@ const GROUP_A = {
       date: "Apr 12, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
-      link: "https://player.vimeo.com/video/399771453",
-      linkTitle: "Liberate Your Shoulder",
+      link: "https://youtu.be/g9h9RnpT8l0",
+      linkTitle: "Liberate Your Shoulders",
     },
     {
       session: 3,
       date: "Apr 19, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
-      link: "https://player.vimeo.com/video/399771453",
+      link: "https://youtu.be/ONfjAyDSw1k",
       linkTitle: "Hand Dance",
     },
     {
@@ -83,7 +83,7 @@ const GROUP_A = {
       date: "Apr 26, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
-      link: "https://player.vimeo.com/video/399771453",
+      link: "",
       linkTitle: "Connection Dance - Part 1",
     },
     {
@@ -91,7 +91,7 @@ const GROUP_A = {
       date: "May 03, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
-      link: "https://player.vimeo.com/video/399771453",
+      link: "",
       linkTitle: "Mobilizing and Releasing Tension - Gentle Stretching",
     },
     {
@@ -99,7 +99,7 @@ const GROUP_A = {
       date: "May 10, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
-      link: "https://player.vimeo.com/video/399771453",
+      link: "",
       linkTitle: "Moving in Space",
     },
     {
@@ -107,7 +107,7 @@ const GROUP_A = {
       date: "May 17, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
-      link: "https://player.vimeo.com/video/399771453",
+      link: "",
       linkTitle: "Moving with Scarves",
     },
     {
@@ -115,7 +115,7 @@ const GROUP_A = {
       date: "May 24, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
-      link: "https://player.vimeo.com/video/399771453",
+      link: "",
       linkTitle: "Sensory exploration",
     },
     {
@@ -123,7 +123,7 @@ const GROUP_A = {
       date: "May 31, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
-      link: "https://player.vimeo.com/video/399771453",
+      link: "https://youtu.be/LrojB1ODTqQ",
       linkTitle: "Imagery based Movement",
     },
     {
@@ -131,7 +131,7 @@ const GROUP_A = {
       date: "Jun 07, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
-      link: "https://player.vimeo.com/video/399771453",
+      link: "",
       linkTitle: "Connection Dance - Part2",
     },
     {
@@ -139,7 +139,7 @@ const GROUP_A = {
       date: "Jun 14, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
-      link: "https://player.vimeo.com/video/399771453",
+      link: "",
       linkTitle: "Breath-guided Movement",
     },
   ],
