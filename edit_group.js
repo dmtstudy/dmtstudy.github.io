@@ -60,7 +60,7 @@ const GROUP_A = {
       title: "[mtg @ xx apm]",  // don't use this
       completedTitle: "[completed msg]", // don't use this
       link: "https://player.vimeo.com/video/399771453",
-      linkTitle: "Breath Awareness Meditation - Part 1",
+      linkTitle: "Breath Awareness Meditation",
     },
     {
       session: 2,
@@ -84,7 +84,7 @@ const GROUP_A = {
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
       link: "https://player.vimeo.com/video/399771453",
-      linkTitle: "Release Tension and Mobilize",
+      linkTitle: "Connection Dance - Part 1",
     },
     {
       session: 5,
@@ -92,7 +92,7 @@ const GROUP_A = {
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
       link: "https://player.vimeo.com/video/399771453",
-      linkTitle: "Imagery based Movement- Part 1",
+      linkTitle: "Mobilizing and Releasing Tension - Gentle Stretching",
     },
     {
       session: 6,
@@ -100,7 +100,7 @@ const GROUP_A = {
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
       link: "https://player.vimeo.com/video/399771453",
-      linkTitle: "Gentle Stretching and Sensory Exploration",
+      linkTitle: "Moving in Space",
     },
     {
       session: 7,
@@ -108,7 +108,7 @@ const GROUP_A = {
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
       link: "https://player.vimeo.com/video/399771453",
-      linkTitle: "Dancing with Scarves",
+      linkTitle: "Moving with Scarves",
     },
     {
       session: 8,
@@ -116,7 +116,7 @@ const GROUP_A = {
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
       link: "https://player.vimeo.com/video/399771453",
-      linkTitle: "Awakening Senses",
+      linkTitle: "Sensory exploration",
     },
     {
       session: 9,
@@ -124,7 +124,7 @@ const GROUP_A = {
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
       link: "https://player.vimeo.com/video/399771453",
-      linkTitle: "Imagery based Movement - Part 2",
+      linkTitle: "Imagery based Movement",
     },
     {
       session: 10,
@@ -132,7 +132,7 @@ const GROUP_A = {
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
       link: "https://player.vimeo.com/video/399771453",
-      linkTitle: "Connection Dance",
+      linkTitle: "Connection Dance - Part2",
     },
     {
       session: 11,
@@ -140,7 +140,7 @@ const GROUP_A = {
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
       link: "https://player.vimeo.com/video/399771453",
-      linkTitle: "Breath Awareness Meditation - Part 2",
+      linkTitle: "Breath-guided Movement",
     },
   ],
 };
