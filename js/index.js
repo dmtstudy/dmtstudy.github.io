@@ -140,8 +140,8 @@ function renderDailyPractice() {
   const { lastSession, schedule } = GROUP_A;
   const sessionIndex = parseInt(lastSession, 10);
   const session = schedule.find(item => item.session === sessionIndex);
-
-  $('#js-daily').html(`
+  if (session.link !== "") {
+    $('#js-daily').html(`
     <p id='' class='font_l ind_l'>Week ${lastSession} Daily Practice</p>
     <div class='font_m ind_l'>&nbsp;&nbsp;${session.linkTitle}</div>
     <div id='js-demo-note' class='ind_l line_sp'> 
@@ -149,6 +149,7 @@ function renderDailyPractice() {
     </div>
     <p class="mg_top"></p> 
   `);
+  }
 }
 {/* <div id='js-demo-note' class='ind_l'>* The last meeting was held on ${session.date}</div>   */}
 
