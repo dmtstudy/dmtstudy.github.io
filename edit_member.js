@@ -25,7 +25,7 @@ const MEMBER_A = [
     absence: [],
     message: [
       {
-        show: "yes",
+        show: "no",
         date: "Apr 30, 2022",
         message: "[personal msg]",
         pic: "",
@@ -40,7 +40,7 @@ const MEMBER_A = [
     absence: [],
     message: [
       {
-        show: "yes",
+        show: "no",
         date: "Apr 30, 2022",
         message: "[personal msg]",
         pic: "",
@@ -55,7 +55,7 @@ const MEMBER_A = [
     absence: [],
     message: [
       {
-        show: "yes",
+        show: "no",
         date: "Apr 30, 2022",
         message: "[personal msg]",
         pic: "",
@@ -70,7 +70,7 @@ const MEMBER_A = [
     absence: [],
     message: [
       {
-        show: "yes",
+        show: "no",
         date: "Apr 30, 2022",
         message: "[personal msg]",
         pic: "",
@@ -85,7 +85,7 @@ const MEMBER_A = [
     absence: [],
     message: [
       {
-        show: "yes",
+        show: "no",
         date: "Apr 30, 2022",
         message: "[personal msg]",
         pic: "",
@@ -100,7 +100,7 @@ const MEMBER_A = [
     absence: [],
     message: [
       {
-        show: "yes",
+        show: "no",
         date: "Apr 30, 2022",
         message: "[personal msg]",
         pic: "",
@@ -115,7 +115,7 @@ const MEMBER_A = [
     absence: [],
     message: [
       {
-        show: "yes",
+        show: "no",
         date: "Apr 30, 2022",
         message: "[personal msg]",
         pic: "",
@@ -130,7 +130,7 @@ const MEMBER_A = [
     absence: [],
     message: [
       {
-        show: "yes",
+        show: "no",
         date: "Apr 30, 2022",
         message: "[personal msg]",
         pic: "",
@@ -145,7 +145,7 @@ const MEMBER_A = [
     absence: [],
     message: [
       {
-        show: "yes",
+        show: "no",
         date: "Apr 30, 2022",
         message: "[personal msg]",
         pic: "",
@@ -160,7 +160,7 @@ const MEMBER_A = [
     absence: [],
     message: [
       {
-        show: "yes",
+        show: "no",
         date: "Apr 30, 2022",
         message: "[personal msg]",
         pic: "",
@@ -175,7 +175,7 @@ const MEMBER_A = [
     absence: [],
     message: [
       {
-        show: "yes",
+        show: "no",
         date: "Apr 30, 2022",
         message: "[personal msg]",
         pic: "",
@@ -190,7 +190,7 @@ const MEMBER_A = [
     absence: [],
     message: [
       {
-        show: "yes",
+        show: "no",
         date: "Apr 30, 2022",
         message: "[personal msg]",
         pic: "",
@@ -205,7 +205,7 @@ const MEMBER_A = [
     absence: [],
     message: [
       {
-        show: "yes",
+        show: "no",
         date: "Apr 30, 2022",
         message: "[personal msg]",
         pic: "",
@@ -220,7 +220,7 @@ const MEMBER_A = [
     absence: [],
     message: [
       {
-        show: "yes",
+        show: "no",
         date: "Apr 30, 2022",
         message: "[personal msg]",
         pic: "",
@@ -235,7 +235,7 @@ const MEMBER_A = [
     absence: [],
     message: [
       {
-        show: "yes",
+        show: "no",
         date: "Apr 30, 2022",
         message: "[personal msg]",
         pic: "",
