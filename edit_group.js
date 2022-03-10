@@ -131,7 +131,7 @@ const GROUP_A = {
       date: "Jun 07, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
-      link: "",
+      link: "https://youtu.be/KIs4ReZVAR0",
       linkTitle: "Connection Dance - Part2",
     },
     {
