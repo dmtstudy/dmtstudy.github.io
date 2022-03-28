@@ -9,7 +9,7 @@ const COMMON = {
   header2: "Ready to Dance?",
   header3: "",
 
-  zoomLink: "https://www.cnn.com/",
+  zoomLink: "https://www.zoom.io/",
 
   phone: "215-490-9650",
   email: "mbmresearch@drexel.edu",
