@@ -40,7 +40,6 @@ function renderInitial(id) {
   $('#js-header1').text(`${header1} ${firstName}!`);
   $('#js-header2').text(header2);
   $('#js-header3').text(header3);
-    // $('#js-message-title').text(`Message to ${firstName}`);
 
   $('#js-help-phone').text(phone);
   $('#js-help-email').html(`<a class="thin" style="font-size: 28px;" href="mailto:${email}">${email}</a>`);
@@ -141,15 +140,18 @@ function renderDailyPractice() {
   const sessionIndex = parseInt(lastSession, 10);
   const session = schedule.find(item => item.session === sessionIndex);
   if (session.link !== "") {
+    const tmpLink = session.link.split('/');    
+    const dailyLink = tmpLink.some(item => item.includes('yout')) ? `https://www.youtube.com/embed/${tmpLink[tmpLink.length - 1]}`: session.link;
+
     $('#js-daily').html(`
     <p id='' class='font_l ind_l'>Week ${lastSession} Daily Practice</p>
     <div class='font_m ind_l'>&nbsp;&nbsp;${session.linkTitle}</div>
     <div id='js-demo-note' class='ind_l line_sp'> 
-      <iframe class="iframe" src="${session.link}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="iframe" src="${dailyLink}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <p class="mg_top"></p> 
   `);
-  }
+}
 }
 {/* <div id='js-demo-note' class='ind_l'>* The last meeting was held on ${session.date}</div>   */}
 
