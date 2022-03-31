@@ -9,7 +9,7 @@ const COMMON = {
   header2: "Ready to Dance?",
   header3: "",
 
-  zoomLink: "https://www.zoom.io/",
+  zoomLink: "https://drexelprivate.zoom.us/j/86315733418?pwd=WFQ4eldUYlRrNSsrbzJZOCtVejRUUT09",
 
   phone: "215-490-9650",
   email: "mbmresearch@drexel.edu",
@@ -20,7 +20,7 @@ const COMMON = {
 
 const GROUP_A = {
   // please update this once you complete a session
-  lastSession: "11",
+  lastSession: "1",
 
   showDailyPractice: "yes", // yes or no
 
