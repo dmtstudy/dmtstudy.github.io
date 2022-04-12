@@ -4,7 +4,7 @@
 const MEMBER = [
   // pic: thumbup, heart, gift, cry, notice
   {
-    name: "John Doe",
+    name: "Grady Richardson",
     id: "a40a", 
     image: "m1",
     absence: [],
@@ -19,7 +19,7 @@ const MEMBER = [
     ],
   },
   {
-    name: "[name2]",
+    name: "Michaelyn Strange",
     id: "a3d2", 
     image: "f1",
     absence: [],
@@ -34,7 +34,7 @@ const MEMBER = [
     ],
   },
   {
-    name: "[name3]",
+    name: "Sandy Cleary",
     id: "ad96", 
     image: "f1",
     absence: [],
