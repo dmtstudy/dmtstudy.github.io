@@ -28,8 +28,8 @@ const GROUP_A = {
   group_message: [
     { 
       show: "yes",
-      date: "Apr 25, 2022",
-      message: "[msg body]",
+      date: "Apr 12, 2022",
+      message: "Stay tuned! We will let you know when our group is ready to begin!",
       pic: "",
       link: "",
     },
