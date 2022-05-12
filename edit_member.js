@@ -10,7 +10,7 @@ const MEMBER = [
     absence: [],
     message: [
       {
-        show: "yes",
+        show: "no",
         date: "Apr 30, 2022",
         message: "[personal msg]",
         pic: "",
@@ -49,9 +49,9 @@ const MEMBER = [
     ],
   },
   {
-    name: "[name4]",
+    name: "Joe Copeland",
     id: "a18d", 
-    image: "f1",
+    image: "m1",
     absence: [],
     message: [
       {
@@ -64,7 +64,7 @@ const MEMBER = [
     ],
   },
   {
-    name: "[name5]",
+    name: "Marjorie Ruppel",
     id: "a568", 
     image: "f1",
     absence: [],
@@ -79,9 +79,9 @@ const MEMBER = [
     ],
   },
   {
-    name: "[name6]",
+    name: "Michael Berry",
     id: "ae65", 
-    image: "f1",
+    image: "m1",
     absence: [],
     message: [
       {
@@ -94,7 +94,7 @@ const MEMBER = [
     ],
   },
   {
-    name: "[name7]",
+    name: "Barbara Colvin",
     id: "a840", 
     image: "f1",
     absence: [],
@@ -109,7 +109,7 @@ const MEMBER = [
     ],
   },
   {
-    name: "[name8]",
+    name: "Amina Akhtar",
     id: "a5da", 
     image: "f1",
     absence: [],
