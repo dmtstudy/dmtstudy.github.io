@@ -45,9 +45,36 @@ function renderInitial(id) {
   $('#js-help-email').html(`<a class="thin" style="font-size: 28px;" href="mailto:${email}">${email}</a>`);
 }
 
+function getGroupId(id) {
+  const memberRecord = MEMBER.find(member => member.id === id);
+  const groupIdFromUrl = ['A', 'B'].includes(id) ? id : ''
+  const groupIdFromMember = memberRecord?.group ? memberRecord.group : '';
+  return groupIdFromUrl || groupIdFromMember || '';
+}
+
+function getGroupObject(groupId) {
+  switch (groupId) {
+    case 'A':
+      return GROUP_A;
+
+    case 'B':
+      return GROUP_B;
+
+    default:
+      return {};
+  }
+}
+
 function renderMessage(id) {
   const memberRecord = MEMBER.find(member => member.id === id);
-  const message = memberRecord ? [...memberRecord?.message, ...GROUP_A?.group_message] : [...GROUP_A?.group_message, ...GROUP_A?.nonmember_message];
+  const groupId = getGroupId(id);
+  const groupData = getGroupObject(groupId);
+  if (Object.keys(groupData).length === 0) return;
+
+  console.log("test", id, groupId)
+  if (['A', 'B'].includes(id)) $('#js-message-title').html(`Announcement - Group ${groupId}`);
+
+  const message = memberRecord ? [...memberRecord?.message, ...groupData?.group_message] : [...groupData?.group_message, ...groupData?.nonmember_message];
   const filteredMessage = message.filter(item => item.show?.toLowerCase() === "yes");
 
   if (filteredMessage.length === 0) {
@@ -71,8 +98,12 @@ function renderMessage(id) {
 }
 
 function renderPastMeetings(id) {
+  const groupId = getGroupId(id);
+  const groupData = getGroupObject(groupId);
+  if (Object.keys(groupData).length === 0) return;
+
   const absence = MEMBER.find(member => member.id === id)?.absence || [];
-  const { lastSession, schedule } = GROUP_A;
+  const { lastSession, schedule } = groupData;
   const sessionIndex = parseInt(lastSession, 10);
   const list = schedule.filter(item => item.session <= sessionIndex).sort((a, b) => b.session - a.session);
   if (list.length === 0) {
@@ -98,7 +129,11 @@ function renderPastMeetings(id) {
 }
 
 function renderFutureMeetings() {
-  const { lastSession, schedule } = GROUP_A;
+  const groupId = getGroupId(id);
+  const groupData = getGroupObject(groupId);
+  if (Object.keys(groupData).length === 0) return;
+
+  const { lastSession, schedule } = groupData;
   const sessionIndex = parseInt(lastSession, 10);
   const list = schedule.filter(item => item.session > sessionIndex).sort((a, b) => a.session - b.session);
 
@@ -135,8 +170,9 @@ function renderFutureMeetings() {
       </li>`));
 }
 
-function renderDailyPractice() {
-  const { lastSession, schedule } = GROUP_A;
+function renderDailyPractice(groupData) {
+
+  const { lastSession, schedule } = groupData;
   const sessionIndex = parseInt(lastSession, 10);
   const session = schedule.find(item => item.session === sessionIndex);
   if (session.link !== "") {
@@ -157,30 +193,51 @@ function renderDailyPractice() {
 
 function renderAdmin() {
   const memberHtml = MEMBER.map(member => `<li class="li_main admin_height">
-        <div class="w2">&nbsp;&nbsp; ${member.name}</div>
-        <div class="w4"><a id="" target='top' class="thin" href="./index.html?id=${member.id}">https://dmtstudy.github.io/?id=${member.id}</a></div>
+        <div class="w2">&nbsp; ${member.name}</div>
+        <div class="w1a center">${member.group ? member.group: '<font color=red>NONE</font>'}</div>
+        <div class="w3"><a id="" target='top' class="thin" href="./index.html?id=${member.id}">https://dmtstudy.github.io/?id=${member.id}</a></div>
       </li>`).join('');
 
   $('#js-admin').html(`
     <p id='' class='col-12 font_l ind_l float'>Member List <font color='#c00000'>(Admin Only)</font></p>
-    <div class="w4 ind_l">&nbsp;&nbsp; GROUP A PAGE&nbsp;&nbsp;&nbsp;&nbsp; <a id="" target='top' class="thin" href="./index.html">https://dmtstudy.github.io</a></div>
     <ul id="" class="al_center" aria-live="polite">
       <li class="li_main">
         <div class="w2 li_title">&nbsp;&nbsp;&nbsp;&nbsp; Name</div>
-        <div class="w4 li_title">Address</div>
+        <div class="w1a li_title">&nbsp;&nbsp; Group</div>
+        <div class="w3 li_title">Address</div>
       </li>
       ${memberHtml}
     </ul>
   `);
 }
 
+function renderDefault() {
+  $('#js-past-meetings').hide();
+  $('#js-past-meetings-title').hide();
+  $('#js-message-title').hide();
+  $('#js-message').hide();
+  $('#js-daily').hide();
+
+  $('#js-default').html(`
+  <p id='' class='col-12 font_l ind_l float'>Group Pages</p>
+  <div class="w4 ind_l">&nbsp;&nbsp; GROUP A PAGE&nbsp;&nbsp;&nbsp;&nbsp; <a id="" target='top' class="thin" href="./index.html?id=A">https://dmtstudy.github.io/?id=A</a></div>
+  <div class="w4 ind_l">&nbsp;&nbsp; GROUP B PAGE&nbsp;&nbsp;&nbsp;&nbsp; <a id="" target='top' class="thin" href="./index.html?id=B">https://dmtstudy.github.io/?id=B</a></div>
+`);
+}
+
 $(_=> {
   const param = window.location.search.split(/=/);
   const id = param.length === 2 ? param[1] : 'default';
+  const groupId = getGroupId(id);
+  const groupData = getGroupObject(groupId);
+  
   renderInitial(id);
   renderMessage(id);
   renderPastMeetings(id);
   // renderFutureMeetings();
-  if (GROUP_A.showDailyPractice.toLowerCase() === "yes")  renderDailyPractice();
+  if (Object.keys(groupData).length === 0) renderDefault();
+
+
+  if (groupData?.showDailyPractice?.toLowerCase() === "yes")  renderDailyPractice(groupData);
   if (COMMON.id === id) renderAdmin();
 });
