@@ -6,7 +6,7 @@ const MEMBER = [
   {
     name: "Grady Richardson",
     id: "a40a", 
-    image: "m2",
+    image: "m1",
     absence: [],
     message: [
       {
@@ -51,7 +51,7 @@ const MEMBER = [
   {
     name: "Joe Copeland",
     id: "a18d", 
-    image: "m2",
+    image: "m1",
     absence: [],
     message: [
       {
@@ -81,7 +81,7 @@ const MEMBER = [
   {
     name: "Michael Berry",
     id: "ae65", 
-    image: "m2",
+    image: "m1",
     absence: [],
     message: [
       {
@@ -111,7 +111,7 @@ const MEMBER = [
   {
     name: "Amina Akhtar",
     id: "a5da", 
-    image: "f2",
+    image: "f1",
     absence: [],
     message: [
       {
