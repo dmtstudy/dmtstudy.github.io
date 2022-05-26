@@ -83,7 +83,7 @@ const GROUP_A = {
       date: "Jun 22, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
-      link: ,
+      link: "",
       linkTitle: "Moving in space",
     },
     {
@@ -107,7 +107,7 @@ const GROUP_A = {
       date: "Jul 13, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
-      link: ,
+      link: "",
       linkTitle:"Sensory exploration",
     },
     {
