@@ -28,7 +28,7 @@ const GROUP_A = {
   group_message: [
     { 
       show: "yes",
-      date: "May 12, 2022",
+      date: "May 27, 2022",
       message: "We are ready to begin! The group's first session will be on Wednesday Jun 1st at 10:00 am Eastern Time. Click the button above to join us!",
       pic: "",
       link: "",
@@ -156,8 +156,8 @@ const GROUP_B = {
   group_message: [
     { 
       show: "yes",
-      date: "Jun 12, 2022",
-      message: "This is a group message from GROUP_B",
+      date: "May 27, 2022",
+      message: "We are ready to begin! Our first group session will be on June 15th, at 11:30am Eastern Time. Please click the Live Session button above to join us!",
       pic: "",
       link: "",
     },
@@ -184,7 +184,7 @@ const GROUP_B = {
   schedule: [
     {
       session: 1,
-      date: "Jun 1, 2022",
+      date: "Jun 15, 2022",
       title: "[mtg @ xx apm]",  // don't use this
       completedTitle: "[completed msg]", // don't use this
       link: "https://youtu.be/0GH81Ab3VXQ",
@@ -192,7 +192,7 @@ const GROUP_B = {
     },
     {
       session: 2,
-      date: "Jun 8, 2022",
+      date: "Jun 22, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
       link: "https://youtu.be/g9h9RnpT8l0",
@@ -200,7 +200,7 @@ const GROUP_B = {
     },
     {
       session: 3,
-      date: "Jul 15, 2022",
+      date: "Jun 29, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
       link: "https://youtu.be/ONfjAyDSw1k",
@@ -208,47 +208,47 @@ const GROUP_B = {
     },
     {
       session: 4,
-      date: "Jul 22, 2022",
-      title: "[mtg @ xx apm]",
-      completedTitle: "[completed msg]",
-      link: "https://youtu.be/GvnvXE8uy0I",
-      linkTitle: "Connection Dance - Part 1",
-    },
-    {
-      session: 5,
-      date: "Jul 29, 2022",
-      title: "[mtg @ xx apm]",
-      completedTitle: "[completed msg]",
-      link: "",
-      linkTitle: "Mobilizing and Releasing Tension - Gentle Stretching",
-    },
-    {
-      session: 6,
-      date: "Aug 6, 2022",
+      date: "Jul 6, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
       link: "",
       linkTitle: "Moving in Space",
     },
     {
-      session: 7,
-      date: "Aug 13, 2022",
+      session: 5,
+      date: "Jul 13, 2022",
+      title: "[mtg @ xx apm]",
+      completedTitle: "[completed msg]",
+      link: "https://youtu.be/GvnvXE8uy0I",
+      linkTitle: "Connection Dance - Part 1",
+    },
+    {
+      session: 6,
+      date: "Jul 20, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
       link: "https://youtu.be/sClQZcpvQTk",
       linkTitle: "Moving with Scarves",
     },
     {
-      session: 8,
-      date: "Aug 20, 2022",
+      session: 7,
+      date: "Jul 27, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
       link: "",
       linkTitle: "Sensory exploration",
     },
     {
+      session: 8,
+      date: "Aug 3, 2022",
+      title: "[mtg @ xx apm]",
+      completedTitle: "[completed msg]",
+      link: "",
+      linkTitle: "Mobilizing and Releasing Tension - Gentle Stretching",
+    },
+    {
       session: 9,
-      date: "Aug 27, 2022",
+      date: "Aug 10, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
       link: "https://youtu.be/LrojB1ODTqQ",
@@ -256,7 +256,7 @@ const GROUP_B = {
     },
     {
       session: 10,
-      date: "Sep 3, 2022",
+      date: "Aug 24, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
       link: "https://youtu.be/KIs4ReZVAR0",
@@ -264,7 +264,7 @@ const GROUP_B = {
     },
     {
       session: 11,
-      date: "Sep 10, 2022",
+      date: "Aug 31, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
       link: "https://youtu.be/gbHPj-ueVhI",
