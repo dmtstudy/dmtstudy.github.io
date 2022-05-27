@@ -132,7 +132,7 @@ const MEMBER = [
     ],
   },
   {
-    name: "[name9]",
+    name: "Judith McCabe",
     id: "b994", 
     group: "B",
     image: "f1",
@@ -148,9 +148,9 @@ const MEMBER = [
     ],
   },
   {
-    name: "[name10]",
+    name: "Chris Brown",
     id: "b53c", 
-    group: "",
+    group: "B",
     image: "f1",
     absence: [],
     message: [
@@ -164,10 +164,10 @@ const MEMBER = [
     ],
   },
   {
-    name: "[name11]",
+    name: "John Tehan",
     id: "bb8b", 
-    group: "",
-    image: "f1",
+    group: "B",
+    image: "m1",
     absence: [],
     message: [
       {
@@ -180,9 +180,9 @@ const MEMBER = [
     ],
   },
   {
-    name: "[name12]",
+    name: "Christl Pilot",
     id: "b5e8", 
-    group: "",
+    group: "B",
     image: "f1",
     absence: [],
     message: [
@@ -196,9 +196,9 @@ const MEMBER = [
     ],
   },
   {
-    name: "[name13]",
+    name: "Sharon Mann",
     id: "b194", 
-    group: "",
+    group: "B",
     image: "f1",
     absence: [],
     message: [
@@ -212,9 +212,9 @@ const MEMBER = [
     ],
   },
   {
-    name: "[name14]",
+    name: "Diane Curtis",
     id: "b20b", 
-    group: "",
+    group: "B",
     image: "f1",
     absence: [],
     message: [
@@ -228,26 +228,26 @@ const MEMBER = [
     ],
   },
   {
-    name: "[name15]",
+    name: "Sheree Graves",
     id: "be3b", 
-    group: "",
+    group: "B",
     image: "f1",
     absence: [],
     message: [
       {
-        show: "no",
-        date: "Apr 30, 2022",
-        message: "[personal msg]",
+        show: "yes",
+        date: "May 27, 2022",
+        message: "Please remember to fill out the surveys prior to June 15th. You can email us if you need the link. Thank you!",
         pic: "",
         link: "",
       },
     ],
   },
   {
-    name: "[name16]",
+    name: "Henry Singleton",
     id: "bc0b", 
-    group: "",
-    image: "f1",
+    group: "B",
+    image: "m1",
     absence: [],
     message: [
       {
