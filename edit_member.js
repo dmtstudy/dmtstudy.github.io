@@ -91,9 +91,9 @@ const MEMBER = [
     absence: [],
     message: [
       {
-        show: "no",
-        date: "Apr 30, 2022",
-        message: "[personal msg]",
+        show: "yes",
+        date: "Jun 01, 2022",
+        message: "We hope you feel better soon! Looking forward to having you join us next week!",
         pic: "",
         link: "",
       },
