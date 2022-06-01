@@ -20,23 +20,23 @@ const COMMON = {
 
 const GROUP_A = {
   // please update this once you complete a session
-  lastSession: "0",
+  lastSession: "1",
 
-  showDailyPractice: "no", // yes or no
+  showDailyPractice: "yes", // yes or no
 
   // pic: thumbup, heart, gift, cry, notice
   group_message: [
     { 
       show: "yes",
-      date: "May 27, 2022",
-      message: "We are ready to begin! The group's first session will be on Wednesday Jun 1st at 10:00 am Eastern Time. Click the button above to join us!",
+      date: "Jun 1, 2022",
+      message: "Great first session, everyone! The group's next session will be on Wednesday Jun 8th at 10:00 am Eastern Time. Click the button above to join us!",
       pic: "",
       link: "",
     },
     {
-      show: "no",
-      date: "Apr 15, 2022",
-      message: "[msg body]",
+      show: "yes",
+      date: "Jun 1, 2022",
+      message: "Remember to fill out your Weekly Session Feedback form! You can ignore the questions about daily practice for this week. Thank you and please call or email if you have questions!",
       pic: "",
       link: "",
     },  
