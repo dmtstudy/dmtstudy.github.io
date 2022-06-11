@@ -243,8 +243,8 @@ const GROUP_B = {
       date: "Aug 3, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
-      link: "",
-      linkTitle: "Mobilizing and Releasing Tension - Gentle Stretching",
+      link: "https://youtu.be/Gef-6rndkHI",
+      linkTitle: "Community Stretch-Self and other",
     },
     {
       session: 9,
