@@ -107,7 +107,7 @@ const GROUP_A = {
       date: "Jul 13, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
-      link: "",
+      link: "https://youtu.be/7SpRmVxjNeY",
       linkTitle:"Sensory exploration",
     },
     {
@@ -115,8 +115,8 @@ const GROUP_A = {
       date: "Jul 20, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
-      link: "",
-      linkTitle: "Mobilizing and Releasing Tension - Gentle Stretching", 
+      link: "https://youtu.be/Gef-6rndkHI",
+      linkTitle: "Community Stretch - Self and Other", 
     },
     {
       session: 9,
