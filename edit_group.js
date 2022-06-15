@@ -149,22 +149,22 @@ const GROUP_A = {
 // START OF GROUP B
 const GROUP_B = {
   // please update this once you complete a session
-  lastSession: "0",
+  lastSession: "1",
 
-  showDailyPractice: "no", // yes or no
+  showDailyPractice: "yes", // yes or no
 
   group_message: [
     { 
       show: "yes",
-      date: "May 27, 2022",
-      message: "We are ready to begin! Our first group session will be on June 15th, at 11:30am Eastern Time. Please click the Live Session button above to join us!",
+      date: "Jun 15, 2022",
+      message: "Great first session, everyone! Our second group session will be on June 22nd, at 11:30am Eastern Time. Please click the Live Session button above to join us!",
       pic: "",
       link: "",
     },
     {
-      show: "no",
+      show: "yes",
       date: "Jun 15, 2022",
-      message: "[msg body]",
+      message: "Scroll down to see the daily practice video. Happy moving!",
       pic: "",
       link: "",
     },  
@@ -211,8 +211,8 @@ const GROUP_B = {
       date: "Jul 6, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
-      link: "",
-      linkTitle: "Moving in Space",
+      link: "https://youtu.be/TqAHOzMt7F0",
+      linkTitle: "Moving in Space - with scarves",
     },
     {
       session: 5,
@@ -235,7 +235,7 @@ const GROUP_B = {
       date: "Jul 27, 2022",
       title: "[mtg @ xx apm]",
       completedTitle: "[completed msg]",
-      link: "",
+      link: "https://youtu.be/7SpRmVxjNeY",
       linkTitle: "Sensory exploration",
     },
     {
