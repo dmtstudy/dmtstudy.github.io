@@ -36,7 +36,7 @@ const GROUP_A = {
     {
       show: "yes",
       date: "Jun 15, 2022",
-      message: "Remember to fill out your Weekly Session Feedback form! Thank you and please call or email if you have questions!",
+      message: "Scroll down to see the daily practice video. Happy Moving!",
       pic: "",
       link: "",
     },  
