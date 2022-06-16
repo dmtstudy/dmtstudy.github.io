@@ -12,7 +12,7 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 8, 2022",
+        date: "Jun 15, 2022",
         message: "We missed you this week, Grady! Hope you can join us for the next session!",
         pic: "",
         link: "",
@@ -27,9 +27,9 @@ const MEMBER = [
     absence: [],
     message: [
       {
-        show: "no",
-        date: "Apr 30, 2022",
-        message: "[personal msg]",
+        show: "yes",
+        date: "Jun 15, 2022",
+        message: "We missed you this week, Michaelyn! Hope you can join us for the next session. Remember to scroll down for the daily practice videos!",
         pic: "",
         link: "",
       },
@@ -43,9 +43,9 @@ const MEMBER = [
     absence: [],
     message: [
       {
-        show: "no",
-        date: "Apr 30, 2022",
-        message: "[personal msg]",
+        show: "yes",
+        date: "Jun 15, 2022",
+        message: "We missed you this week, Sandy! Hope you can join us for the next session. Remember to scroll down for the daily practice videos!",
         pic: "",
         link: "",
       },
@@ -92,7 +92,7 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 08, 2022",
+        date: "Jun 15, 2022",
         message: "We hope you feel better soon! Looking forward to having you join us next week!",
         pic: "",
         link: "",
@@ -139,9 +139,9 @@ const MEMBER = [
     absence: [],
     message: [
       {
-        show: "no",
-        date: "Apr 30, 2022",
-        message: "[personal msg]",
+        show: "yes",
+        date: "Jun 15, 2022",
+        message: "We missed you this week, Judith! Hope you can join us for the next session. Remember to scroll down for the daily practice videos!",
         pic: "",
         link: "",
       },
@@ -187,9 +187,9 @@ const MEMBER = [
     absence: [],
     message: [
       {
-        show: "no",
-        date: "Apr 30, 2022",
-        message: "[personal msg]",
+        show: "yes",
+        date: "Jun 15, 2022",
+        message: "We missed you this week, Christl! Hope you can join us for the next session. Remember to scroll down for the daily practice videos!",
         pic: "",
         link: "",
       },
@@ -236,8 +236,8 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "May 27, 2022",
-        message: "Please remember to fill out the surveys prior to June 15th. You can email us if you need the link. Thank you!",
+        date: "Jun 15, 2022",
+        message: "Please remember to fill out the surveys as soon as you can. You can email us if you need the link again. Thank you!",
         pic: "",
         link: "",
       },
