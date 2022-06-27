@@ -44,8 +44,8 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 22, 2022",
-        message: "So glad you could make it this week, Sandy! Enjoy your cruise next week, and we'll see you when you return!",
+        date: "Jun 27, 2022",
+        message: "Enjoy your cruise this week, and we'll see you when you return! Also, please remember to fill out your Weekly Session Feedback Forms. The link to this is in your email, sent each morning the day after the session.",
         pic: "",
         link: "",
       },
