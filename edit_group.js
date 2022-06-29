@@ -149,7 +149,7 @@ const GROUP_A = {
 // START OF GROUP B
 const GROUP_B = {
   // please update this once you complete a session
-  lastSession: "2",
+  lastSession: "3",
 
   showDailyPractice: "yes", // yes or no
 
