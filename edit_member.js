@@ -156,8 +156,8 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 22, 2022",
-        message: "So glad you could make it this week, Chris! Sending cool breezes and lots of water your way!",
+        date: "Jun 29, 2022",
+        message: "So glad you could make it this week, Chris! Looking forward to seeing you next week!",
         pic: "",
         link: "",
       },
@@ -172,7 +172,7 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 22, 2022",
+        date: "Jun 29, 2022",
         message: "So glad you could make it this week, John! Sending you good energy to help you through this transition!",
         pic: "",
         link: "",
@@ -188,7 +188,7 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 22, 2022",
+        date: "Jun 29, 2022",
         message: "So glad you could make it this week, Christl! Looking forward to seeing you again next week!",
         pic: "",
         link: "",
@@ -204,7 +204,7 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 22, 2022",
+        date: "Jun 29, 2022",
         message: "So glad you could make it this week, Sharon! Looking forward to seeing you again next week!",
         pic: "",
         link: "",
@@ -220,8 +220,8 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 22, 2022",
-        message: "So glad you could make it this week, Diane! The group sends lots of healing energy your way for your arm!",
+        date: "Jun 29, 2022",
+        message: "We missed you this week, Diane! The group sends lots of healing energy your way!",
         pic: "",
         link: "",
       },
@@ -236,7 +236,7 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 22, 2022",
+        date: "Jun 29, 2022",
         message: "So glad you could make it this week, Sheree! Looking forward to seeing you again next week!",
         pic: "",
         link: "",
@@ -252,7 +252,7 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 22, 2022",
+        date: "Jun 29, 2022",
         message: "We missed you this week, Mr. Singleton! Hope you can join us for next week's session!",
         pic: "",
         link: "",
