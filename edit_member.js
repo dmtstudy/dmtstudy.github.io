@@ -12,7 +12,7 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 29, 2022",
+        date: "Jul 7, 2022",
         message: "We missed you this week, Grady! Please let us know if you're still interested in participating. You can email us at mbmresearch@drexel.edu",
         pic: "",
         link: "",
@@ -28,8 +28,8 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 29, 2022",
-        message: "So glad you could join us this morning, Michaelyn! Good luck on your next surgery, and we'll look forward to seeing you next week!",
+        date: "Jul 7, 2022",
+        message: "Hope your surgery went well! We'll look forward to seeing you next week!",
         pic: "",
         link: "",
       },
@@ -44,8 +44,8 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 29, 2022",
-        message: "Enjoy your cruise this week, and we'll see you when you return! Also, please remember to fill out your Weekly Session Feedback Forms. The link to this is in your email, sent each morning the day after the session.",
+        date: "Jul 7, 2022",
+        message: "So glad you could join us this week! We look forward to seeing you next week!",
         pic: "",
         link: "",
       },
@@ -60,7 +60,7 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 29, 2022",
+        date: "Jul 7, 2022",
         message: "So glad you could make it this week, Joe! Looking forward to seeing you next week!",
         pic: "",
         link: "",
@@ -76,7 +76,7 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 29, 2022",
+        date: "Jul 7, 2022",
         message: "So glad you could make it this week, Marj! Looking forward to seeing you again next week!",
         pic: "",
         link: "",
@@ -92,8 +92,8 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 29, 2022",
-        message: "We're so glad we could welcome you to the group this week, Michael! Thank you so much for joining, and we'll see you again next week!",
+        date: "Jul 7, 2022",
+        message: "Hope your procedure went well, Michael! Looking forward to seeing you next week!",
         pic: "",
         link: "",
       },
@@ -108,8 +108,8 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 29, 2022",
-        message: "Enjoy the mountains, Barbara! Looking forward to seeing you next week!",
+        date: "Jul 7, 2022",
+        message: "So glad you could make it this week! Looking forward to seeing you next week!",
         pic: "",
         link: "",
       },
@@ -124,7 +124,7 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 29, 2022",
+        date: "Jul 7, 2022",
         message: "So glad you could make it this week, Amina! Best of luck with your house hunting, and we'll see you again next week!",
         pic: "",
         link: "",
@@ -140,7 +140,7 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 29, 2022",
+        date: "Jul 7, 2022",
         message: "We hope you can continue to use the videos below. Sending you healing energy and our best wishes!",
         pic: "",
         link: "",
@@ -156,7 +156,7 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 29, 2022",
+        date: "Jul 7, 2022",
         message: "So glad you could make it this week, Chris! Looking forward to seeing you next week!",
         pic: "",
         link: "",
@@ -172,7 +172,7 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 29, 2022",
+        date: "Jul 7, 2022",
         message: "So glad you could make it this week, John! Sending you good energy to help you through this transition!",
         pic: "",
         link: "",
@@ -188,7 +188,7 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 29, 2022",
+        date: "Jul 7, 2022",
         message: "So glad you could make it this week, Christl! Looking forward to seeing you again next week!",
         pic: "",
         link: "",
@@ -204,8 +204,8 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 29, 2022",
-        message: "So glad you could make it this week, Sharon! Looking forward to seeing you again next week!",
+        date: "Jul 7, 2022",
+        message: "Hope you're having a great time traveling, Sharon! Looking forward to seeing you next week!",
         pic: "",
         link: "",
       },
@@ -220,7 +220,7 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 29, 2022",
+        date: "Jul 7, 2022",
         message: "We missed you this week, Diane! The group sends lots of healing energy your way!",
         pic: "",
         link: "",
@@ -236,7 +236,7 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 29, 2022",
+        date: "Jul 7, 2022",
         message: "So glad you could make it this week, Sheree! Looking forward to seeing you again next week!",
         pic: "",
         link: "",
@@ -252,7 +252,7 @@ const MEMBER = [
     message: [
       {
         show: "yes",
-        date: "Jun 29, 2022",
+        date: "Jul 7, 2022",
         message: "We missed you this week, Mr. Singleton! Hope you can join us for next week's session!",
         pic: "",
         link: "",
