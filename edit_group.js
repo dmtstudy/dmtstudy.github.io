@@ -20,7 +20,7 @@ const COMMON = {
 
 const GROUP_A = {
   // please update this once you complete a session
-  lastSession: "8",
+  lastSession: "9",
 
   showDailyPractice: "yes", // yes or no
 
@@ -28,8 +28,8 @@ const GROUP_A = {
   group_message: [
     { 
       show: "yes",
-      date: "Jul 20, 2022",
-      message: "Great eightth session, everyone! The group's next session will be on Wednesday July 27 at 10:00 am Eastern Time. Click the button above to join us!",
+      date: "Jul 29, 2022",
+      message: "Great ninth session, everyone! The group's next session will be on Wednesday August 3rd at 10:00 am Eastern Time. Click the button above to join us!",
       pic: "",
       link: "",
     },
@@ -149,15 +149,15 @@ const GROUP_A = {
 // START OF GROUP B
 const GROUP_B = {
   // please update this once you complete a session
-  lastSession: "6",
+  lastSession: "7",
 
   showDailyPractice: "yes", // yes or no
 
   group_message: [
     { 
       show: "yes",
-      date: "Jul 20, 2022",
-      message: "Great sixth session, everyone! Our next group session will be on Wednesday July 27th, at 11:30am Eastern Time. Please click the Live Session button above to join us!",
+      date: "Jul 27, 2022",
+      message: "Great seventh session, everyone! Our next group session will be on Wednesday August 3rd, at 11:30am Eastern Time. Please click the Live Session button above to join us!",
       pic: "",
       link: "",
     },
