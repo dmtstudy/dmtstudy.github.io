@@ -149,15 +149,15 @@ const GROUP_A = {
 // START OF GROUP B
 const GROUP_B = {
   // please update this once you complete a session
-  lastSession: "9",
+  lastSession: "10",
 
   showDailyPractice: "yes", // yes or no
 
   group_message: [
     { 
       show: "yes",
-      date: "Aug 10, 2022",
-      message: "Great ninth session, everyone! Our next group session will be on Monday August 15th, at 11:30am Eastern Time. Please click the Live Session button above to join us!",
+      date: "Aug 17, 2022",
+      message: "Great tenth session, everyone! Our next group session will be on Wednesday August 24th, at 11:30am Eastern Time. Please click the Live Session button above to join us!",
       pic: "",
       link: "",
     },
