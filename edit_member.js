@@ -155,7 +155,7 @@ const MEMBER = [
     absence: [],
     message: [
       {
-        show: "yes",
+        show: "no",
         date: "Aug 17, 2022",
         message: "So glad you could make it this week, Chris! Looking forward to seeing you next week!",
         pic: "",
@@ -171,7 +171,7 @@ const MEMBER = [
     absence: [],
     message: [
       {
-        show: "yes",
+        show: "no",
         date: "Aug 17, 2022",
         message: "So glad you could make it this week, John! Looking forward to seeing you next week!",
         pic: "",
@@ -187,7 +187,7 @@ const MEMBER = [
     absence: [],
     message: [
       {
-        show: "yes",
+        show: "no",
         date: "Aug 17, 2022",
         message: "Glad you could make it this week, Christl! Looking forward to seeing you again next week!",
         pic: "",
@@ -203,7 +203,7 @@ const MEMBER = [
     absence: [],
     message: [
       {
-        show: "yes",
+        show: "no",
         date: "Aug 17, 2022",
         message: "So glad you could make it this week, Sharon! Looking forward to seeing you next week!",
         pic: "",
@@ -219,7 +219,7 @@ const MEMBER = [
     absence: [],
     message: [
       {
-        show: "yes",
+        show: "no",
         date: "Aug 17, 2022",
         message: "So glad you could make it this week, Diane! Looking forward to seeing you next week!",
         pic: "",
@@ -235,7 +235,7 @@ const MEMBER = [
     absence: [],
     message: [
       {
-        show: "yes",
+        show: "no",
         date: "Aug 17, 2022",
         message: "So glad you could make it this week, Sheree! Looking forward to seeing you again next week!",
         pic: "",
@@ -251,7 +251,7 @@ const MEMBER = [
     absence: [],
     message: [
       {
-        show: "yes",
+        show: "no",
         date: "Aug 17, 2022",
         message: "We missed you this week, Mr. Singleton! Hope you can join us for next week's session!",
         pic: "",
