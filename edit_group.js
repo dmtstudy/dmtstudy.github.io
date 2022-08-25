@@ -27,14 +27,14 @@ const GROUP_A = {
   // pic: thumbup, heart, gift, cry, notice
   group_message: [
     { 
-      show: "yes",
+      show: "no",
       date: "Aug 10, 2022",
       message: "Great eleventh session, everyone! The group's next and final session will be on Wednesday August 17th at 10:00 am Eastern Time. Click the button above to join us!",
       pic: "",
       link: "",
     },
     {
-      show: "yes",
+      show: "no",
       date: "Jun 15, 2022",
       message: "Scroll down to see the daily practice video. Happy Moving!",
       pic: "",
